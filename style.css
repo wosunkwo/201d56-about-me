@@ -6,13 +6,14 @@ header {
   border: thick ridge #666 ;
   float: right;
   width: 25%;
-  height: 80%;
+  height: 65%;
   background-color: #666;
   color: bisque;
 }
 #shortBioImg {
   width:100%;
-  height:200px;
+  /*height:200px; */
+  border-radius: 50%;
 }
 
 #summary{
@@ -20,15 +21,19 @@ header {
   width:70%;
   height:55%;
   background-color: #666;
-  color: cornsilk;
+  color: rgb(91, 235, 213);
 }
 
 #userGame {
   border: 3px ridge #666;
   background-color: #666;
-  color: blanchedalmond;
+  color: whitesmoke;
   width:70%;
   height: 100%;
 }
 
+#myTopTenList{
+  border : 3px ridge #666;
+  background-color:  #666;
+}
 
