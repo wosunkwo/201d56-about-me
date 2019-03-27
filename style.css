@@ -1,0 +1,34 @@
+header {
+  background-color: bisque
+}
+
+#imgAndShortBio {
+  border: thick ridge #666 ;
+  float: right;
+  width: 25%;
+  height: 80%;
+  background-color: #666;
+  color: bisque;
+}
+#shortBioImg {
+  width:100%;
+  height:200px;
+}
+
+#summary{
+  border: 3px ridge #666;
+  width:70%;
+  height:55%;
+  background-color: #666;
+  color: cornsilk;
+}
+
+#userGame {
+  border: 3px ridge #666;
+  background-color: #666;
+  color: blanchedalmond;
+  width:70%;
+  height: 100%;
+}
+
+
