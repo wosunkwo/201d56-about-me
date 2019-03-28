@@ -11,17 +11,27 @@ header {
   color: bisque;
 }
 #shortBioImg {
-  width:100%;
+  height:100%;
+/*  border: 3px ridge blue; */
+  /*margin-top: 0px;*/
+  margin-left: 60px;
+  margin-top:  10px;
   /*height:200px; */
-  border-radius: 50%;
+  border-radius: 40%;
+}
+#shortBio {
+  /*border: 3px ridge blue;*/
+  padding: 0px;
+  margin: auto;
 }
 
 #summary{
   border: 3px ridge #666;
-  width:70%;
-  height:55%;
   background-color: #666;
   color: rgb(91, 235, 213);
+  width:70%; 
+  padding: 10px;
+  /*margin: auto;*/
 }
 
 #userGame {
@@ -29,11 +39,21 @@ header {
   background-color: #666;
   color: whitesmoke;
   width:70%;
-  height: 100%;
+  padding: 10px;
 }
 
 #myTopTenList{
   border : 3px ridge #666;
   background-color:  #666;
+  width:70%;
+  padding: 10px;
+  overflow: hidden;
 }
+
+/*
+#myTopTenList img{
+  width: 20%;
+  float: left;
+
+} */
 
