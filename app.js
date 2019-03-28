@@ -1,12 +1,12 @@
 'use strict';
 
-/*var correctAnswers = [true, false, true, false, true, 30,['will','james']];
-alert(correctAnswers[6][1]); */
-
+//this statement calls the function gameStart()
 gameStart();
 
 function gameStart(){
+  //this askes the user for his/her name and stores it
   var userName = prompt('Hi there, What is your name?');
+  //this creates an area to store all the questions i am going to ask the user
   var questions = ['if williams was building a team would he draft Lebron James?', 'if williams house was on fire and he had to choose between saving his dog or his books, would he save his dog?', 'if williams was stressed at work, would he drink coffee?', 'if williams was going to pick up his mum and wife at the same location. Would he let his mum sit in the front seat?', 'if the world cup finals was showing the same time the nba finals was showing, will williams watch the pick the nba finals over the world cup finals?', 'what is williams favorite basketball players jersey number?', 'can you guess a state I have been to apart from Washington'];
 
   var correctAnswers = [true, false, true, false, true, 30, ['oklahoma', 'new jersey','texas','missouri','florida','new york', 'minnesota','louisiana']];

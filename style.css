@@ -1,14 +1,19 @@
 header {
-  background-color: bisque
+  margin-top: 0px; 
+  margin : 20px;
+  background-color: grey;
+  color: black;
+  padding: 1px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 #imgAndShortBio {
-  border: thick ridge #666 ;
+  border: thick ridge;
   float: right;
   width: 25%;
   height: 65%;
-  background-color: #666;
-  color: bisque;
+  box-shadow: 5px 5px #888888;
 }
 #shortBioImg {
   height:100%;
@@ -21,33 +26,31 @@ header {
 }
 #shortBio {
   /*border: 3px ridge blue;*/
-  padding: 0px;
+  padding: 10px;
+  color:black;
   margin: auto;
 }
 
 #summary{
-  border: 3px ridge #666;
-  background-color: #666;
-  color: rgb(91, 235, 213);
+  color: black;
   width:70%; 
   padding: 10px;
-  /*margin: auto;*/
+  box-shadow: 5px 5px #888888;
 }
 
-#userGame {
-  border: 3px ridge #666;
-  background-color: #666;
-  color: whitesmoke;
-  width:70%;
-  padding: 10px;
+#gameSummary {
+  border: 2px ridge;
 }
 
 #myTopTenList{
-  border : 3px ridge #666;
-  background-color:  #666;
-  width:70%;
+  /*border : 2px ridge; */
+  color: black;
+  width:20%;
   padding: 10px;
   overflow: hidden;
+  box-shadow: 5px 5px #888888;
+  border-radius: 20px;
+  margin-top: 15px;
 }
 
 /*
