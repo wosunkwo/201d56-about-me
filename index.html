@@ -3,86 +3,181 @@
   <head>
     <link rel = "stylesheet" href = "./style.css"> 
     <title>Williams Osunkwo's About Me page</title>
+    <!--the line below is used to import a google font that i will be using in my webpage-->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   </head>
 
 <body>
   <header>
-    <h1> ABOUT ME</h1>
+    <h1> Who is Williams Osunkwo?</h1>
   </header>
 
   <main>
-
-    <!-- This is going to be at the top right of my page, and it is going to include a picture and a short bio of me-->
-    <div id ="imgAndShortBio">
-      <img id="shortBioImg" src ="images/Ass2BioImg-removebg.png" alt="an image of Williams Osunkwo smiling">
-      <div id ="shortBio">
-        <p>My name is Williams Osunkwo, I am  originally from Nigeria. I came to the USA when i was 17. I am in the Army Reserves. Some of my hobbies include: playing basketball, watching movies, studying, writing code, and traveling.</p>
-        <p>I will classify myself as an introvert who loves to meet people. Weird right? I know. Some of the major highlights of my life include: graduating highschool, buying my first car, joining the army, graduating college, getting my first job </p>
+    <div id ="firstSection">
+      <!-- This is going to be at the top right of my page, and it is going to include a picture and a short bio of me-->
+      <div id ="imgAndShortBio">
+        <img id="shortBioImg" src ="images/myWebsiteBackgroundImage.png" alt="an image of Williams Osunkwo smiling">
+        <div id ="shortBio">
+          <p>My name is Williams Osunkwo, I am  originally from Nigeria. I came to the USA when i was 17. I am in the Army Reserves. Some of my hobbies include: playing basketball, watching movies, studying, writing code, and traveling.</p>
+          <p>I will classify myself as an introvert who loves to meet people. Weird right? I know. Some of the major highlights of my life include: graduating highschool, buying my first car, joining the army, graduating college, getting my first job </p>
+        </div>
       </div>
+
+      <!--this is going to be at the main of my page and it is going to include my education history, my goals, and my job experience-->
+      <div id="summary">
+        <h4> My Education: </h4>
+        <p>I have a Bachelors degree in Computer Science and an Associates degree in Information Technology from Cameron University</p>
+
+        <h4> My Goals: </h4>
+        <ul>
+          <li>buy my mother a house</li>
+          <li>be successful in my career</li>
+          <li>travel the world</li>
+          <li>find true love</li>
+          <li>find my purpuse in life</li>
+        </ul>
+
+        <h4> Job Experience</h4>
+        <ol>
+          <li>
+            <h5> Cerner Corporation | Technical Solution Analyst | Kansas City, MO | January 2019 – March 2019</h5> 
+            <p>Investigated service requests, resolved client incidents and maintained applications. 
+              Supported specific Cerner software services, and collaborated with project teams who are implementing software. 
+              Prioritized and planned issue resolutions both independently and in a collaborative and fast-paced team environment.
+              Assisted in creating and maintaining educational documentation and knowledge transfer materials.
+            </p>
+          </li>
+
+          <li>
+            <h5>Red River Science & Technology | Software Engineer Intern | Lawton, OK | August 2017 – April 2018 </h5>
+            <p>Designed firewalls, monitored use of data files, and regulated access to safeguard information and protect the network 
+                Produced specifications and determined operational feasibility 
+                Re-designed official websites and created relational databases  
+                Developed and implemented a cyber security plan to adhere with the NIST 800-171 specifications 
+            </p>
+          </li>
+        </ol>
+
+        <div id = "gameStart">
+          <h5>Let's play a Get To Know Me Game: </h5>
+          <button onClick="gameStart()">START</button>
+          <p id = 'gameSummary'></p>
+        </div>
+      </div>
+  </div>
+
+  <!--section for my top ten vacation wishlist-->
+  <h5 id="myTopTenWishlistHeading">My Top Ten Vacation Wishlist</h5> 
+ 
+  <div id="myTopTenWishlistSummary">
+    <div id="wishlistSummary1">
+    <p>Las Vegas, officially the City of Las Vegas and often known simply as Vegas, is the 28th-most populated city in the United States, the most populated city in the state of Nevada, and the county seat of Clark County. The city anchors the Las Vegas Valley metropolitan area and is the largest city within the greater Mojave Desert. Las Vegas is an internationally renowned major resort city, known primarily for its gambling, shopping, fine dining, entertainment, and nightlife. The Las Vegas Valley as a whole serves as the leading financial, commercial, and cultural center for Nevada.</p>
     </div>
 
-    <!--this is going to be at the main of my page and it is going to include my education history, my goals, and my job experience-->
-    <div id="summary">
-      <h4> My Education: </h4>
-      <p>I have a Bachelors degree in Computer Science and an Associates degree in Information Technology from Cameron University</p>
-
-      <h4> My Goals: </h4>
-      <ul>
-        <li>buy my mother a house</li>
-        <li>be successful in my career</li>
-        <li>travel the world</li>
-        <li>find true love</li>
-        <li>find my purpuse in life</li>
-      </ul>
-
-      <h4> Job Experience</h4>
-      <ul>
-        <li>
-          <h5> Cerner Corporation | Technical Solution Analyst | Kansas City, MO | January 2019 – March 2019</h5> 
-          <p>Investigated service requests, resolved client incidents and maintained applications. 
-            Supported specific Cerner software services, and collaborated with project teams who are implementing software. 
-            Prioritized and planned issue resolutions both independently and in a collaborative and fast-paced team environment.
-            Assisted in creating and maintaining educational documentation and knowledge transfer materials.
-          </p>
-        </li>
-
-        <li>
-          <h5>Red River Science & Technology | Software Engineer Intern | Lawton, OK | August 2017 – April 2018 </h5>
-          <p>Designed firewalls, monitored use of data files, and regulated access to safeguard information and protect the network 
-              Produced specifications and determined operational feasibility 
-              Re-designed official websites and created relational databases  
-              Developed and implemented a cyber security plan to adhere with the NIST 800-171 specifications 
-          </p>
-        </li>
-      </ul>
-      <h5>GAME RESULT: </h5>
-      <p id = 'gameSummary'></p>
+    <div id="wishlistSummary2">
+      <p>Rome is the capital city and a special comune of Italy (named Comune di Roma Capitale). Rome also serves as the capital of the Lazio region. With 2,872,800 residents in 1,285 km2 (496.1 sq mi), it is also the country's most populated comune. It is the fourth most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy. Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. The Vatican City (the smallest country in the world) is an independent country inside the city boundaries of Rome, the only existing example of a country within a city: for this reason Rome has been often defined as capital of two states.</p>
     </div>
 
-    <div id="myTopTenList">
-      <h5>My Top Ten Vacation Wishlist</h5> 
-      <ol>
-        <li>Las Vegas </li> 
-        <!--<img src = "https://upload.wikimedia.org/wikipedia/commons/8/8e/Welcome_to_Las_Vegas_sign.jpg"></li> -->
-        <li>Rome </li> 
-      <!--<img src="https://static.toiimg.com/thumb/53891769/The-Colosseum.jpg?width=748&height=499"></li> -->
-        <li>Califonia</li>
-        <li>Paris</li>
-        <li>London</li>
-        <li>Dubai</li>
-        <li>Toronto</li>
-        <li>Atlanta</li>
-        <li>Madrid</li>
-        <li>Hong Kong</li>
-      </ol>
+    <div id="wishlistSummary3">
+      <p>San Francisco (SF; /ˌsæn frənˈsɪskoʊ, fræn-/, Spanish: [sam fɾanˈsisko]; Spanish for 'Saint Francis'), officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California. San Francisco is the 13th-most populous city in the United States, and the fourth-most populous in California, with 884,363 residents as of 2017. It covers an area of about 46.89 square miles (121.4 km2), mostly at the north end of the San Francisco Peninsula in the San Francisco Bay Area, making it the second-most densely populated large US city, and the fifth-most densely populated U.S. county, behind only four of the five New York City boroughs. San Francisco is also part of the fifth-most populous primary statistical area in the United States, the San Jose–San Francisco–Oakland, CA Combined Statistical Area (9.7 million residents).</p>
     </div>
+
+    <div id="wishlistSummary4">
+      <p>Paris (French pronunciation: ​[paʁi] (About this soundlisten)) is the capital and most populous city of France, with an area of 105 square kilometres (41 square miles) and an official estimated population of 2,140,526 residents as of 1 January 2019. Since the 17th century, Paris is one of Europe's major centres of finance, diplomacy, commerce, fashion, science, and the arts. The City of Paris is the centre and seat of government of the Île-de-France, or Paris Region, which has an estimated official 2019 population of 12,213,364, or about 18 percent of the population of France. The Paris Region had a GDP of €681 billion (US$850 billion) in 2016, accounting for 31 percent of the GDP of France, and was the 5th largest region by GDP in the world. According to the Economist Intelligence Unit Worldwide Cost of Living Survey in 2018, Paris was the second most expensive city in the world, after Singapore, and ahead of Zurich, Hong Kong, Oslo and Geneva. An other source rank Paris as most expensive in the world ex aequo with Singapour and Hong-Kong in 2018.</p>
+    </div>
+  
+    <div id="wishlistSummary5">
+      <p>London (/ˈlʌndən/ (About this soundlisten) LUN-dən) is the capital and largest city of both England and the United Kingdom. Standing on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea, London has been a major settlement for two millennia. Londinium was founded by the Romans. The City of London, London's ancient core − an area of just 1.12 square miles (2.9 km2) and colloquially known as the Square Mile − retains boundaries that follow closely its medieval limits. </p>
+    </div>
+
+    <div id="wishlistSummary6">
+      <p>Dubai (/duːˈbaɪ/ doo-BY; Arabic: دبي‎ Dubay, Gulf Arabic: Arabic pronunciation: [dʊˈbɑj]) is the largest and most populous city in the United Arab Emirates (UAE). On the southeast coast of the Persian Gulf, it is the capital of the Emirate of Dubai, one of the seven emirates that make up the country. Dubai is a global city and business hub of the Middle East. It is also a major global transport hub for passengers and cargo. Oil revenue helped accelerate the development of the city, which was already a major mercantile hub, but Dubai's oil reserves are limited and production levels are low: today, less than 5% of the emirate's revenue comes from oil. A growing centre for regional and international trade since the early 20th century, Dubai's economy today relies on revenues from trade, tourism, aviation, real estate, and financial services.<p>
+    </div>
+
+    <div id="wishlistSummary7">
+      <p>Toronto (/təˈrɒntoʊ/ (About this soundlisten) tə-RON-toh) is the provincial capital of Ontario and the most populous city in Canada, with a population of 2,731,571 in 2016. Current to 2016,the Toronto census metropolitan area (CMA), of which the majority is within the Greater Toronto Area (GTA), held a population of 5,928,040, making it Canada's most populous CMA. Toronto is the anchor of an urban agglomeration, known as the Golden Horseshoe in Southern Ontario, located on the northwestern shore of Lake Ontario. A global city, Toronto is a centre of business, finance, arts, and culture, and is recognized as one of the most multicultural and cosmopolitan cities in the world.</p>
+    </div>
+
+    <div id="wishlistSummary8">
+      <p>Atlanta (/ætˈlæntə/) is the capital of, and the most populous city in, the U.S. state of Georgia. With an estimated 2017 population of 486,290, it is also the 38th most-populous city in the United States. The city serves as the cultural and economic center of the Atlanta metropolitan area, home to 5.8 million people and the ninth-largest metropolitan area in the nation. Atlanta is the seat of Fulton County, the most populous county in Georgia. A small portion of the city extends eastward into neighboring DeKalb County.</p>
+    </div>  
+
+    <div id="wishlistSummary9">
+      <p>Madrid (/məˈdrɪd/, Spanish: [maˈðɾið], locally [maˈðr(:)iθ] (About this soundlisten)[5]) is the capital of Spain and the largest municipality in both the Community of Madrid and Spain as a whole. The city has almost 3.3 million inhabitants and a metropolitan area population of approximately 6.5 million. It is the third-largest city in the European Union (EU), smaller than only London and Berlin, and its monocentric metropolitan area is the third-largest in the EU, smaller only than those of London and Paris. The municipality covers 604.3 km2 (233.3 sq mi).</p>
+    </div>  
+
+  
+    <div id="wishlistSummary10">
+      <p>Hong Kong (/ˌhɒŋˈkɒŋ/ (About this soundlisten); Chinese: 香港, Hong Kong Cantonese: [hœ́ːŋ.kɔ̌ːŋ] (About this soundlisten)), officially the Hong Kong Special Administrative Region of the People's Republic of China and commonly abbreviated as HK, is a special administrative region on the eastern side of the Pearl River estuary in southern China. With over 7.4 million people of various nationalities[c] in a 1,104-square-kilometre (426 sq mi) territory, Hong Kong is the world's fourth most densely populated region.</p>
+    </div>  
+
+  </div> 
+
+  <div id="myTopTenWishlist">
+
+    <div id="wishlist1">
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/8/8e/Welcome_to_Las_Vegas_sign.jpg">
+      <p>Las Vegas</p>
+    </div>
+
+    <div id="wishlist2"> 
+       <img src="https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/5835/SITours/rome-by-night-illuminated-tour-in-rome-322816.jpg">
+      <p>Rome</p>
+    </div>
+
+    <div id="wishlist3">
+      <img src="https://cdn-images-1.medium.com/max/2400/1*3c4OHz20f5aGKxNKR3Qx9Q.jpeg">
+      <p>San Francisco</p>
+    </div>
+
+    <div id="wishlist4">
+        <img src="https://www.setaswall.com/wp-content/uploads/2017/07/Eiffel-Tower-Wallpapers-26-2048-x-1120.jpg">
+        <p>Paris</p>
+    </div>
+
+      <div id="wishlist5">
+          <img src="https://longreadsblog.files.wordpress.com/2015/06/london-night-crop-featured.jpg?w=1680">
+          <p>London</p>
+      </div>
+
+      <div id="wishlist6">
+          <img src="https://d3hne3c382ip58.cloudfront.net/resized/750x420/dubai-at-night-tour-with-burj-khalifa-ticket-tour-2-2805_0.JPG">
+          <p>Dubai</p>
+      </div>
+
+      <div id="wishlist7">
+          <img src="https://torontoguardian.com/wp-content/uploads/2016/10/30572647416_b83c24977a_c-1.jpg">
+          <p>Toronto</p>
+      </div>
+
+      <div id="wishlist8">
+          <img src="https://www.southeastphotoadventures.com/uploads/3/4/1/1/34112867/jon-s-midtown-shot_1_orig.jpeg">
+          <p>Atlanta</p>
+      </div>
+
+      <div id="wishlist9">
+          <img src="https://i2.wp.com/www.jpruf.com/wp-content/uploads/2013/11/madrid-night-7.jpg">
+          <p>Madrid</p>
+      </div>
+
+      <div id="wishlist10">
+          <img src="https://i.ytimg.com/vi/LJb0VAcK6N0/maxresdefault.jpg">
+          <p>Hong Kong</p>
+      </div>
+      <!--
+      <li>Dubai</li>
+      <li>Toronto</li>
+      <li>Atlanta</li>
+      <li>Madrid</li>
+      <li>Hong Kong</li> -->
+  </div>
 
   </main>
 
   <footer> 
-
+    <p>©Williams Osunkwo. All rights reserved.</p>
   </footer>
- <!--- <script src="app.js"></script> -->
+  <script src="app.js"></script> 
 </body>
 
 </html>

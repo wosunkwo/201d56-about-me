@@ -2,7 +2,7 @@
 
 //functions
 //this creates an array to store all the questions i am going to ask the user
-var questions = ['if williams was building a team would he draft Lebron James?', 'if williams house was on fire and he had to choose between saving his dog or his books, would he save his dog?', 'if williams was stressed at work, would he drink coffee?', 'if williams was going to pick up his mum and wife at the same location. Would he let his mum sit in the front seat?', 'if the world cup finals was showing the same time the nba finals was showing, will williams watch the pick the nba finals over the world cup finals?', 'what is williams favorite basketball players jersey number?', 'can you guess a state I have been to apart from Washington'];
+var questions = ['if williams was building a team would he draft Lebron James?', 'if williams house was on fire and he had to choose between saving his dog or his books, would he save his dog?', 'if williams was stressed at work, would he drink coffee?', 'if williams was going to pick up his mum and wife at the same location. Would he let his mum sit in the front seat?', 'if the world cup finals was showing the same time the nba finals was showing, will williams watch the nba finals over the world cup finals?', 'what is williams favorite basketball players jersey number?', 'can you guess a state I have been to apart from Washington'];
 var correctAnswers = [true, false, true, false, true, 30, ['oklahoma', 'new jersey','texas','missouri','florida','new york', 'minnesota','louisiana']];
 var yesAnswers = ['yes', 'y'];
 var noAnswers = ['no', 'n'];
@@ -11,7 +11,7 @@ var count = 0;
 var numOfTrys;
 var userName;
 
-gameStart();
+//gameStart();
 
 //starts game
 function gameStart(){
@@ -59,19 +59,18 @@ function questionsOneToFive(i) {
   }
   else{
     validity = 'invalid';
-    alert('ummm. what is you doing ' + userName + '?? You can only answer yes/no or y/n. Try another question');
   }
-  messageToUser(validity);
+  alert(messageToUser(validity));
 }
 
-//helper function - sends back correct alert message depending on validity of response
+//helper function to send back correct alert message depending on validity of response
 function messageToUser(validity) {
   if(validity === 'correct') {
-    return;
+    return 'Correct!! '+ userName + ' you are right. Good job';
   } else if (validity === 'incorrect') {
-    return;
+    return 'Wrong!! ' + userName + ' better luck next time.';
   } else {
-    return;
+    return 'ummm. what is you doing ' + userName + '?? You can only answer yes/no or y/n. Try another question';
   }
 }
 

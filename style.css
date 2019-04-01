@@ -1,62 +1,280 @@
+body {
+  background-image: url(https://www.connectinternetsolutions.com/wp-content/uploads/2016/02/12-Courses-for-Starting-Your-Web-Development-Journey.jpg);
+  background-color:white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header {
-  margin-top: 0px; 
+  margin-top: 10px;
   margin : 20px;
-  background-color: grey;
   color: black;
   padding: 1px;
-  border-radius: 20px;
-  text-align: center;
+  text-align: center ;
+}
+
+#firstSection {
+  box-shadow: 0px 5px #888888;
 }
 
 #imgAndShortBio {
-  border: thick ridge;
+/*  border: thick ridge;*/
   float: right;
   width: 25%;
   height: 65%;
-  box-shadow: 5px 5px #888888;
+  box-shadow: 0px 0px #888888;
 }
 #shortBioImg {
-  height:100%;
-/*  border: 3px ridge blue; */
-  /*margin-top: 0px;*/
-  margin-left: 60px;
-  margin-top:  10px;
-  /*height:200px; */
-  border-radius: 50%; 
+  width: 250px;
+  padding-left: 0%
 }
 #shortBio {
   /*border: 3px ridge blue;*/
   padding: 10px;
   color:black;
   margin: auto;
+  font-family: 'Abel', sans-serif;
 }
 
 #summary{
   color: black;
   width:70%; 
   padding: 10px;
-  box-shadow: 5px 5px #888888;
+  font-family: 'Abel', sans-serif;
 }
 
-#gameSummary {
-  border: 2px ridge;
+#gameStart {
+border: 5px inset; 
+background-color: grey;
+width: 350px;
+padding-left: 20px;
 }
 
-#myTopTenList{
-  /*border : 2px ridge; */
-  color: black;
-  width:20%;
+#myTopTenWishlistHeading {
+  text-align: center;
+  font-size: 20px; 
+}
+
+#myTopTenWishlist{
+  width:48%;
   padding: 10px;
-  overflow: hidden;
-  box-shadow: 5px 5px #888888;
   border-radius: 20px;
   margin-top: 15px;
+  font-family: 'Abel', sans-serif;
 }
 
-/*
-#myTopTenList img{
-  width: 20%;
-  float: left;
+#wishlist1{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+#wishlist1 img{
+  width:100%;
+}
+#wishlist h5{
+  float: right;
+}
 
-} */
+#wishlist2{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  }
+  
+#wishlist2 img{
+  width:100%;
+}
 
+#wishlist3{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+#wishlist3 img{
+  width:100%;
+}
+
+#wishlist4{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+#wishlist4 img{
+  width:100%;
+} 
+
+#wishlist5{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#wishlist5 img{
+  width:100%;
+}
+
+#wishlist6{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#wishlist6 img{
+  width:100%;
+}
+
+#wishlist7{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#wishlist7 img{
+  width:100%;
+}
+
+#wishlist8{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#wishlist8 img{
+  width:100%;
+}
+
+#wishlist9{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#wishlist9 img{
+  width:100%;
+}
+
+#wishlist10{
+  width:40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+#wishlist10 img{
+  width:100%;
+}
+
+#myTopTenWishlistSummary{
+  width: 48%;
+  float: right;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-family: 'Abel', sans-serif;
+  color: black;
+}
+
+#wishlistSummary1{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#wishlistSummary2{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+
+#wishlistSummary3{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+#wishlistSummary4{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+#wishlistSummary5{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+#wishlistSummary6{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+#wishlistSummary7{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 55px;
+}
+
+#wishlistSummary8{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 55px;
+}
+
+#wishlistSummary9{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 55px;
+}
+
+#wishlistSummary10{
+  width:100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 85px;
+}
+
+footer{
+  background-color: white;
+  color: black;
+  text-align: center;
+}
